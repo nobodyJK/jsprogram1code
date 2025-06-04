@@ -1,0 +1,1272 @@
+        function gra () {
+            //get the graphic canvas and context
+            let g_canvas = document.getElementById('g-canvas')
+            let pla_gra = g_canvas.getContext('2d')
+
+            
+            //set the width and height
+            g_canvas.width = 600;
+            g_canvas.height = 2200;
+
+
+
+            //ellipse function draws an ellipse
+            function ellipse (x, y, w, h) {
+                pla_gra.beginPath();
+                pla_gra.ellipse(x, y, w / 2, h / 2, 0, 0, 2 * Math.PI);
+                pla_gra.fill();
+                pla_gra.closePath();
+            };
+
+
+
+            // rooster graphic{
+            
+pla_gra.fillStyle = "rgb(158, 156, 158)"
+
+pla_gra.beginPath()
+pla_gra.moveTo(265,458)
+pla_gra.lineTo(251,540)
+pla_gra.lineTo(230, 535)
+pla_gra.lineTo(253, 464)
+
+
+pla_gra.fill()
+pla_gra.closePath()
+
+pla_gra.fillStyle = "rgb(181, 177, 181)"
+
+pla_gra.beginPath()
+pla_gra.moveTo(255,458)
+pla_gra.lineTo(242,543)
+pla_gra.lineTo(230, 543)
+pla_gra.lineTo(239, 464)
+
+
+pla_gra.fill()
+pla_gra.closePath()
+            
+            pla_gra.fillStyle = "#410300"
+            ellipse(134, 151, 50, 98)
+            
+            pla_gra.fillStyle = "#ff3f00"
+            pla_gra.beginPath();
+            pla_gra.lineTo(321, 270);
+            pla_gra.lineTo(309, 259);
+            pla_gra.lineTo(290, 249);
+            pla_gra.lineTo(264, 236);
+            pla_gra.lineTo(253, 229);
+            pla_gra.lineTo(244, 228);
+            pla_gra.lineTo(228, 235);
+            pla_gra.lineTo(219, 246);
+            pla_gra.lineTo(216, 255);
+            pla_gra.lineTo(224, 262);
+            pla_gra.lineTo(246, 264);
+            pla_gra.lineTo(252, 276);
+            pla_gra.lineTo(266, 276);
+            pla_gra.lineTo(266, 269);
+            pla_gra.lineTo(288, 278);
+            pla_gra.lineTo(314, 273);
+            pla_gra.fill()
+            pla_gra.closePath();
+
+
+            pla_gra.fillStyle = "#ff7f00"
+
+            pla_gra.beginPath();
+            pla_gra.lineTo(128, 144);
+            pla_gra.lineTo(132, 163);
+            pla_gra.lineTo(124, 172);
+            pla_gra.lineTo(124, 183);
+            pla_gra.lineTo(132, 195);
+            pla_gra.lineTo(128, 212);
+            pla_gra.lineTo(129, 224);
+            pla_gra.lineTo(131, 228);
+            pla_gra.lineTo(132, 242);
+            pla_gra.lineTo(138, 246);
+            pla_gra.lineTo(149, 251);
+            pla_gra.lineTo(151, 259);
+            pla_gra.lineTo(155, 253);
+            pla_gra.lineTo(161, 264);
+            pla_gra.lineTo(164, 266);
+            pla_gra.lineTo(164, 273);
+            pla_gra.lineTo(169, 276);
+            pla_gra.lineTo(173, 284);
+            pla_gra.lineTo(179, 281);
+            pla_gra.lineTo(181, 275);
+            pla_gra.lineTo(180, 270);
+            pla_gra.lineTo(178, 267);
+            pla_gra.lineTo(180, 267);
+            pla_gra.lineTo(183, 271);
+            pla_gra.lineTo(183, 277);
+            pla_gra.lineTo(186, 281);
+            pla_gra.lineTo(189, 278);
+            pla_gra.lineTo(190, 272);
+            pla_gra.lineTo(187, 266);
+            pla_gra.lineTo(187, 260);
+            pla_gra.lineTo(184, 256);
+            pla_gra.lineTo(185, 253);
+            pla_gra.lineTo(189, 255);
+            pla_gra.lineTo(192, 261);
+            pla_gra.lineTo(195, 269);
+            pla_gra.lineTo(201, 278);
+            pla_gra.lineTo(215, 276);
+            pla_gra.lineTo(222, 276);
+            pla_gra.lineTo(226, 279);
+            pla_gra.lineTo(227, 274);
+            pla_gra.lineTo(226, 259);
+            pla_gra.lineTo(232, 265);
+            pla_gra.lineTo(238, 269);
+            pla_gra.lineTo(242, 261);
+            pla_gra.lineTo(233, 251);
+            pla_gra.lineTo(222, 241);
+            pla_gra.lineTo(217, 243);
+            pla_gra.lineTo(196, 211);
+            pla_gra.lineTo(187, 172);
+            pla_gra.lineTo(181, 144);
+            pla_gra.lineTo(177, 135);
+            pla_gra.lineTo(166, 129);
+            pla_gra.lineTo(141, 135);
+            pla_gra.fill()
+            pla_gra.closePath();
+
+
+
+            pla_gra.fillStyle = "black"
+
+            pla_gra.beginPath();
+            pla_gra.moveTo(316, 270);
+
+            pla_gra.quadraticCurveTo(366, 104, 459, 119);
+            pla_gra.quadraticCurveTo(571, 104, 569, 342);
+            pla_gra.quadraticCurveTo(571, 404, 547, 431);
+            pla_gra.quadraticCurveTo(535, 439, 535, 425);
+            pla_gra.quadraticCurveTo(554, 383, 544, 346);
+            pla_gra.quadraticCurveTo(534, 383, 504, 407);
+            pla_gra.quadraticCurveTo(471, 435, 493, 398);
+            pla_gra.quadraticCurveTo(548, 325, 488, 189);
+            pla_gra.quadraticCurveTo(498, 253, 460, 274);
+            pla_gra.quadraticCurveTo(438, 294, 448, 364);
+            pla_gra.quadraticCurveTo(448, 391, 422, 378);
+            pla_gra.quadraticCurveTo(417, 369, 414, 350);
+            pla_gra.quadraticCurveTo(395, 357, 394, 356);
+            pla_gra.quadraticCurveTo(333, 435, 273, 420);
+
+            pla_gra.fill()
+            pla_gra.closePath();
+
+
+            pla_gra.fillStyle = "#005555"
+
+
+            pla_gra.beginPath();
+            pla_gra.moveTo(316, 270);
+
+            pla_gra.quadraticCurveTo(366, 104, 459, 119);
+            pla_gra.quadraticCurveTo(487, 121, 503, 139);
+            pla_gra.quadraticCurveTo(517, 158, 503, 158);
+            pla_gra.quadraticCurveTo(472, 158, 465, 188);
+            pla_gra.quadraticCurveTo(457, 210, 472, 236);
+            pla_gra.quadraticCurveTo(493, 269, 460, 268);
+            pla_gra.quadraticCurveTo(392, 252, 305, 325)
+            pla_gra.fill()
+            pla_gra.closePath();
+
+
+            pla_gra.fillStyle = "#037f7f"
+
+
+            pla_gra.beginPath();
+            pla_gra.moveTo(345, 222);
+            pla_gra.quadraticCurveTo(366, 104, 459, 119);
+            pla_gra.quadraticCurveTo(487, 121, 503, 148);
+            pla_gra.quadraticCurveTo(401, 95, 345, 222);
+            pla_gra.fill()
+            pla_gra.closePath();
+
+
+            pla_gra.beginPath();
+            pla_gra.moveTo(352, 242);
+            pla_gra.quadraticCurveTo(385, 237, 425, 264);
+            pla_gra.quadraticCurveTo(428, 274, 409, 233);
+            pla_gra.quadraticCurveTo(428, 236, 446, 260);
+            pla_gra.quadraticCurveTo(475, 288, 446, 243);
+            pla_gra.quadraticCurveTo(437, 209, 391, 210);
+            pla_gra.quadraticCurveTo(437, 144, 470, 157);
+            pla_gra.quadraticCurveTo(428, 124, 380, 200);
+
+            pla_gra.fill()
+            pla_gra.closePath();
+
+            pla_gra.fillStyle = "#aa5500"
+
+            pla_gra.fillRect(240, 240, 20, 20);
+
+
+            pla_gra.fillStyle = "#000055"
+            pla_gra.beginPath();
+            pla_gra.moveTo(105, 199);
+            pla_gra.quadraticCurveTo(109, 368, 179, 395);
+            pla_gra.quadraticCurveTo(175, 388, 237, 479);
+            pla_gra.lineTo(270, 461);
+            pla_gra.lineTo(270, 439);
+            pla_gra.quadraticCurveTo(353, 430, 351, 386);
+            pla_gra.fill()
+            pla_gra.closePath();
+
+
+            pla_gra.fillStyle = "#550000"
+
+            pla_gra.beginPath();
+            pla_gra.moveTo(280, 314);
+            pla_gra.lineTo(323, 354);
+            pla_gra.lineTo(312, 390);
+            pla_gra.quadraticCurveTo(221, 376, 258, 361);
+            pla_gra.fill()
+            pla_gra.closePath();
+
+            pla_gra.fillStyle = "#aa0000"
+
+
+
+
+            pla_gra.beginPath();
+            pla_gra.moveTo(273, 325);
+            pla_gra.lineTo(304, 357);
+            pla_gra.lineTo(305, 365);
+            pla_gra.lineTo(310, 371);
+            pla_gra.lineTo(310, 374);
+            pla_gra.lineTo(303, 376);
+            pla_gra.lineTo(300, 374);
+            pla_gra.lineTo(287, 374);
+            pla_gra.lineTo(261, 364);
+            pla_gra.fill()
+            pla_gra.closePath();
+
+
+            pla_gra.fillStyle = "#0055aa"
+
+            pla_gra.beginPath();
+            pla_gra.moveTo(208, 344);
+            pla_gra.lineTo(227, 357);
+            pla_gra.lineTo(254, 370);
+            pla_gra.lineTo(287, 380);
+            pla_gra.lineTo(280, 369);
+            pla_gra.lineTo(276, 365);
+            pla_gra.lineTo(276, 335);
+            pla_gra.lineTo(299, 350);
+            pla_gra.lineTo(320, 353);
+            pla_gra.lineTo(320, 278);
+            pla_gra.lineTo(214, 278);
+            pla_gra.fill()
+            pla_gra.closePath();
+
+
+            pla_gra.fillStyle = "#aa0000"
+
+            pla_gra.beginPath();
+            pla_gra.moveTo(106, 161);
+            pla_gra.quadraticCurveTo(100, 205, 105, 233);
+            pla_gra.quadraticCurveTo(110, 246, 128, 287);
+            pla_gra.lineTo(143, 300);
+            pla_gra.lineTo(143, 274);
+            pla_gra.lineTo(148, 274);
+            pla_gra.lineTo(183, 342);
+            pla_gra.quadraticCurveTo(210, 370, 267, 312);
+            pla_gra.quadraticCurveTo(273, 301, 267, 264);
+            pla_gra.fill()
+            pla_gra.closePath();
+
+
+
+            pla_gra.fillStyle = "#ff5500"
+
+            pla_gra.beginPath();
+            pla_gra.moveTo(160, 139);
+            pla_gra.quadraticCurveTo(123, 189, 136, 233);
+            pla_gra.quadraticCurveTo(151, 276, 200, 270);
+            pla_gra.quadraticCurveTo(230, 276, 211, 228);
+            pla_gra.quadraticCurveTo(230, 256, 284, 245);
+            pla_gra.quadraticCurveTo(230, 234, 182, 136);
+            pla_gra.fill()
+            pla_gra.closePath();
+
+
+
+
+            pla_gra.beginPath();
+            pla_gra.moveTo(276, 238);
+
+            pla_gra.quadraticCurveTo(341, 259, 352, 354);
+            pla_gra.quadraticCurveTo(355, 387, 338, 447);
+            pla_gra.quadraticCurveTo(336, 387, 338, 413);
+            pla_gra.quadraticCurveTo(336, 428, 306, 413);
+            pla_gra.quadraticCurveTo(336, 389, 306, 317);
+            pla_gra.quadraticCurveTo(279, 274, 236, 265);
+
+
+
+            pla_gra.fill()
+            pla_gra.closePath();
+
+
+
+            pla_gra.fillStyle = "#bf7f3a"
+
+
+            pla_gra.beginPath();
+            pla_gra.lineTo(103, 101);
+            pla_gra.lineTo(82, 112);
+            pla_gra.lineTo(116, 116);
+            pla_gra.fill()
+            pla_gra.closePath();
+
+
+            pla_gra.fillStyle = "#bf0000"
+
+            pla_gra.beginPath();
+            pla_gra.lineTo(164, 115);
+            pla_gra.lineTo(154, 105);
+            pla_gra.lineTo(141, 95);
+            pla_gra.lineTo(146, 94);
+            pla_gra.lineTo(157, 92);
+            pla_gra.lineTo(165, 84);
+            pla_gra.lineTo(170, 74);
+            pla_gra.lineTo(171, 62);
+            pla_gra.lineTo(168, 57);
+            pla_gra.lineTo(151, 67);
+            pla_gra.lineTo(158, 55);
+            pla_gra.lineTo(157, 45);
+            pla_gra.lineTo(143, 64);
+            pla_gra.lineTo(133, 69);
+            pla_gra.lineTo(139, 50);
+            pla_gra.lineTo(142, 43);
+            pla_gra.lineTo(138, 43);
+            pla_gra.lineTo(131, 56);
+            pla_gra.lineTo(123, 70);
+            pla_gra.lineTo(124, 57);
+            pla_gra.lineTo(123, 53);
+            pla_gra.lineTo(119, 53);
+            pla_gra.lineTo(118, 65);
+            pla_gra.lineTo(93, 90);
+            pla_gra.lineTo(90, 99);
+            pla_gra.lineTo(100, 109);
+            pla_gra.lineTo(95, 123);
+            pla_gra.lineTo(99, 138);
+            pla_gra.lineTo(99, 153);
+            pla_gra.lineTo(109, 162);
+            pla_gra.lineTo(119, 160);
+            pla_gra.lineTo(125, 154);
+            pla_gra.lineTo(125, 144);
+            pla_gra.lineTo(133, 136);
+            pla_gra.lineTo(161, 113);
+            pla_gra.fill()
+            pla_gra.closePath()
+
+
+
+
+            pla_gra.fillStyle = "#ffff3f"
+
+            pla_gra.beginPath();
+            pla_gra.lineTo(241, 234);
+            pla_gra.lineTo(249, 233);
+            pla_gra.lineTo(260, 236);
+            pla_gra.lineTo(263, 236);
+            pla_gra.lineTo(242, 221);
+            pla_gra.lineTo(226, 204);
+            pla_gra.lineTo(216, 191);
+            pla_gra.lineTo(202, 168);
+            pla_gra.lineTo(198, 165);
+            pla_gra.lineTo(199, 175);
+            pla_gra.lineTo(189, 180);
+            pla_gra.lineTo(183, 186);
+            pla_gra.lineTo(189, 191);
+            pla_gra.lineTo(197, 197);
+            pla_gra.lineTo(210, 207);
+            pla_gra.lineTo(221, 217);
+            pla_gra.lineTo(230, 224);
+            pla_gra.lineTo(240, 235);
+            pla_gra.lineTo(245, 235);
+            pla_gra.fill()
+            pla_gra.closePath();
+
+
+
+
+            pla_gra.fillStyle = "#ff3f00"
+
+            pla_gra.beginPath();
+            pla_gra.lineTo(128, 152);
+            pla_gra.lineTo(124, 167);
+            pla_gra.lineTo(119, 174);
+            pla_gra.lineTo(118, 193);
+            pla_gra.lineTo(119, 208);
+            pla_gra.lineTo(127, 202);
+            pla_gra.lineTo(131, 202);
+            pla_gra.lineTo(135, 192);
+            pla_gra.lineTo(138, 188);
+            pla_gra.lineTo(136, 177);
+            pla_gra.lineTo(140, 172);
+            pla_gra.lineTo(133, 162);
+            pla_gra.fill()
+            pla_gra.closePath();
+
+
+            pla_gra.fillStyle = "#7f0100"
+
+            pla_gra.beginPath();
+            pla_gra.lineTo(106, 161);
+            pla_gra.lineTo(116, 166);
+            pla_gra.lineTo(125, 155);
+            pla_gra.lineTo(129, 147);
+            pla_gra.lineTo(133, 140);
+            pla_gra.lineTo(133, 137);
+            pla_gra.lineTo(134, 135);
+            pla_gra.lineTo(106, 148);
+            pla_gra.fill()
+            pla_gra.closePath();
+
+
+
+
+
+
+
+            pla_gra.fillStyle = "#ff0000"
+
+
+
+            pla_gra.beginPath();
+            pla_gra.lineTo(120, 116);
+            pla_gra.lineTo(115, 112);
+            pla_gra.lineTo(111, 111);
+            pla_gra.lineTo(107, 107);
+            pla_gra.lineTo(104, 105);
+            pla_gra.lineTo(110, 103);
+            pla_gra.lineTo(109, 99);
+            pla_gra.lineTo(110, 98);
+            pla_gra.lineTo(106, 98);
+            pla_gra.lineTo(103, 98);
+            pla_gra.lineTo(102, 98);
+            pla_gra.lineTo(91, 99);
+            pla_gra.lineTo(92, 92);
+            pla_gra.lineTo(92, 86);
+            pla_gra.lineTo(91, 81);
+            pla_gra.lineTo(97, 71);
+            pla_gra.lineTo(103, 63);
+            pla_gra.lineTo(107, 59);
+            pla_gra.lineTo(112, 59);
+            pla_gra.lineTo(114, 62);
+            pla_gra.lineTo(116, 56);
+            pla_gra.lineTo(124, 62);
+            pla_gra.lineTo(124, 62);
+            pla_gra.lineTo(135, 46);
+            pla_gra.lineTo(139, 50);
+            pla_gra.lineTo(138, 60);
+            pla_gra.lineTo(155, 48);
+            pla_gra.lineTo(154, 57);
+            pla_gra.lineTo(168, 56);
+            pla_gra.lineTo(164, 65);
+            pla_gra.lineTo(165, 70);
+            pla_gra.lineTo(171, 68);
+            pla_gra.lineTo(170, 77);
+            pla_gra.lineTo(163, 86);
+            pla_gra.lineTo(155, 94);
+            pla_gra.lineTo(148, 94);
+            pla_gra.lineTo(142, 86);
+            pla_gra.lineTo(138, 84);
+            pla_gra.lineTo(129, 88);
+            pla_gra.lineTo(128, 93);
+            pla_gra.lineTo(131, 96);
+            pla_gra.lineTo(134, 102);
+            pla_gra.lineTo(140, 108);
+            pla_gra.lineTo(137, 111);
+            pla_gra.lineTo(133, 111);
+            pla_gra.lineTo(133, 115);
+            pla_gra.lineTo(138, 116);
+            pla_gra.lineTo(143, 118);
+            pla_gra.lineTo(148, 114);
+            pla_gra.lineTo(147, 111);
+            pla_gra.lineTo(143, 108);
+            pla_gra.lineTo(141, 107);
+            pla_gra.lineTo(139, 105);
+            pla_gra.lineTo(139, 103);
+            pla_gra.lineTo(147, 103);
+            pla_gra.lineTo(154, 109);
+            pla_gra.lineTo(161, 112);
+            pla_gra.lineTo(167, 119);
+            pla_gra.lineTo(175, 132);
+            pla_gra.lineTo(175, 134);
+            pla_gra.lineTo(171, 134);
+            pla_gra.lineTo(163, 127);
+            pla_gra.lineTo(165, 138);
+            pla_gra.lineTo(155, 136);
+            pla_gra.lineTo(155, 157);
+            pla_gra.lineTo(150, 152);
+            pla_gra.lineTo(148, 145);
+            pla_gra.lineTo(142, 141);
+            pla_gra.lineTo(144, 130);
+            pla_gra.lineTo(144, 127);
+            pla_gra.lineTo(135, 133);
+            pla_gra.lineTo(129, 139);
+            pla_gra.lineTo(126, 130);
+            pla_gra.lineTo(124, 126);
+            pla_gra.lineTo(128, 119);
+            pla_gra.lineTo(130, 119);
+            pla_gra.lineTo(129, 116);
+            pla_gra.fill()
+            pla_gra.closePath();
+
+            
+            
+            //eyes
+            pla_gra.fillStyle = "#be0603"
+            ellipse(121, 103, 13, 13)
+
+
+            pla_gra.fillStyle = "#410300"
+            ellipse(121, 103, 7, 7)
+            
+            
+            //}
+            
+            
+            //[
+            //function to get a random number
+            function random (min, max) {
+                return min + Math.random() * (max - min);
+            }
+
+
+            //function to make a blade af grass
+            function blade (x, y) {
+                this.g = random(-10, 10);
+
+                pla_gra.beginPath();
+                pla_gra.moveTo(x, y)
+                pla_gra.quadraticCurveTo(x - this.g / 2, y - 10, x + this.g, y - 20 - random(0, 5));
+                pla_gra.quadraticCurveTo(x + this.g / 2, y - 10, this.x + 5, y);
+                pla_gra.fill()
+                pla_gra.closePath();
+            }
+
+            
+            pla_gra.save();
+
+
+            pla_gra.translate(0, 500);
+
+            
+            //dirt{
+            pla_gra.fillStyle = "rgb(77, 53, 8)"
+            pla_gra.fillRect(0, 0, 100, 100)
+            for (let i = 0; i < 100; i++) {
+
+                pla_gra.fillStyle = "rgb(36, 15, 1)"
+                ellipse(random(0, 100), random(0, 100), random(2, 10), random(2, 10));
+                pla_gra.fillStyle = "rgb(51, 22, 3)"
+                ellipse(random(0, 100), random(0, 100), random(2, 10), random(2, 10));
+                pla_gra.fillStyle = "rgb(66, 28, 2)"
+                ellipse(random(0, 100), random(0, 100), random(2, 10), random(2, 10));
+                pla_gra.fillStyle = "rgb(77, 32, 2)"
+                ellipse(random(0, 100), random(0, 100), random(2, 10), random(2, 10));
+                pla_gra.fillStyle = "rgb(92, 40, 5)"
+                ellipse(random(0, 100), random(0, 100), random(2, 10), random(2, 10));
+            }
+            //}
+            
+            
+            //grass{
+
+            let c = 0;
+            for (let i = 0; i < 100; i++) {
+                c = random(-30, 30)
+                pla_gra.fillStyle = "rgb(" + (3 + c) + ", " + (99 + c) + ", " + (17 + c) + ")"
+                blade(110 + random(0, 100), 30 + random(-4, 8));
+
+            }
+
+
+            //}
+
+
+            //gold egg{
+            pla_gra.save();
+            pla_gra.fillStyle = "black"
+
+
+            pla_gra.beginPath();
+            pla_gra.moveTo(0, 400)
+            pla_gra.quadraticCurveTo(-7, 254, 98, 237);
+            pla_gra.quadraticCurveTo(206, 262, 200, 400);
+            pla_gra.quadraticCurveTo(190, 497, 100, 500);
+            pla_gra.quadraticCurveTo(10, 497, 0, 400);
+
+            pla_gra.fill()
+            pla_gra.closePath();
+
+            pla_gra.clip();
+            pla_gra.fillStyle = "rgb(245, 226, 101)"
+            pla_gra.fillRect(0, 235, 200, 600);
+
+
+            for (let i = 0; i < 100; i++) {
+                pla_gra.fillStyle = "rgba(255, 255, 255, 2%)"
+                ellipse(100, 312, i / 2, i * 1.5);
+                pla_gra.fillStyle = "rgba(212, 175, 11, 2%)"
+                ellipse(-100 + i, 400, i * 1, i * 2);
+                ellipse(300 - i, 400, i * 1, i * 2);
+                ellipse(100, 600 - i, i * 1.5, i * 1.5);
+
+            }
+            //}
+
+            pla_gra.restore();
+
+
+
+            //function for mist
+            function mist (y) {
+                let mist_gradient = pla_gra.createLinearGradient(300, y + 20, 300, y - 100);
+                mist_gradient.addColorStop(1, 'rgb(171, 233, 255, 2%)');
+                mist_gradient.addColorStop(0, 'rgb(9, 20, 171, 75%)');
+                pla_gra.fillStyle = mist_gradient
+
+
+                let up = random(0, 10);
+                pla_gra.beginPath();
+                pla_gra.moveTo(0, 600)
+                pla_gra.lineTo(0, y - 50)
+
+                for (let i = 1; i < 50; i++) {
+                    let u = random(up - 10, up + 10)
+                    pla_gra.lineTo(i * 12, y - 50 - u)
+                    up = u
+                }
+                pla_gra.lineTo(600, y - 50)
+
+                pla_gra.lineTo(600, 600)
+                pla_gra.fill()
+                pla_gra.closePath();
+            }
+            
+            
+            
+            //function to make mountains idk why I named it hill XD
+            function hill (y) {
+                pla_gra.beginPath();
+
+                pla_gra.moveTo(0, 600)
+                pla_gra.lineTo(0, y - 20)
+
+
+                for (let i = 1; i < 12; i++) {
+                    pla_gra.lineTo(i * 50, y - random(-25, 100))
+
+                }
+                pla_gra.lineTo(600, y - 20)
+
+                pla_gra.lineTo(600, 600)
+
+                pla_gra.fill()
+                pla_gra.closePath();
+
+            }
+
+
+            
+            
+            //mountains
+            pla_gra.save();
+            pla_gra.translate(0, 200);
+            
+            for (let i = 0; i < 5; i++) {
+                let hill_gradient = pla_gra.createLinearGradient(300, 500 + i * 20 + 20, 300, 500 + i * 50 - 200);
+                hill_gradient.addColorStop(1, "rgb(" + (69 + i * 20 + 20) + ", " + (45 + i * 18 + 20) + "," + (4 + i * 18 + 20) + ")");
+                hill_gradient.addColorStop(0, "rgb(" + (69 + i * 20 - 40) + ", " + (45 + i * 18 - 40) + "," + (4 + i * 18 - 40) + ")");
+                pla_gra.fillStyle = hill_gradient
+
+                hill(500 + i * 20)
+
+                if (i !== 4) {
+                    mist(500 + i * 20);
+                }
+            }
+
+            pla_gra.restore();
+            pla_gra.restore();
+          
+          
+          //]
+          
+    function arc(x, y, w, h, s, t) {
+        pla_gra.beginPath();
+        pla_gra.ellipse(x, y, w / 2, h / 2, 0, s, t);
+        pla_gra.stroke();
+        pla_gra.closePath();
+    };
+
+    function ELLipse(x, y, w, h) {
+        pla_gra.beginPath();
+        pla_gra.ellipse(x, y, w / 2, h / 2, 0, 0, 2 * Math.PI);
+        pla_gra.fill();
+        pla_gra.stroke();
+        pla_gra.closePath();
+    };
+    
+    var roos = pla_gra.getImageData(0, 0, 600, 600);
+          
+          //{
+          pla_gra.save();
+          
+          pla_gra.translate(0, 1500);
+          pla_gra.putImageData(roos, 0,1500);
+          
+            // evil rooster graphic{
+                pla_gra.fillStyle = "rgb(158, 156, 158)"
+
+pla_gra.beginPath()
+pla_gra.moveTo(265,458)
+pla_gra.lineTo(251,540)
+pla_gra.lineTo(230, 535)
+pla_gra.lineTo(253, 464)
+
+
+pla_gra.fill()
+pla_gra.closePath()
+
+pla_gra.fillStyle = "rgb(181, 177, 181)"
+
+pla_gra.beginPath()
+pla_gra.moveTo(255,458)
+pla_gra.lineTo(242,543)
+pla_gra.lineTo(230, 543)
+pla_gra.lineTo(239, 464)
+
+
+pla_gra.fill()
+pla_gra.closePath()
+pla_gra.fillStyle = "rgb(107, 107, 107)"
+
+
+pla_gra.beginPath();
+pla_gra.moveTo(191,154);
+pla_gra.quadraticCurveTo(184, 256, 109, 264);
+pla_gra.quadraticCurveTo(115, 367, 182, 397);
+pla_gra.quadraticCurveTo(306, 476, 368, 388);
+pla_gra.quadraticCurveTo(313, 288, 318, 262);
+pla_gra.quadraticCurveTo(313, 244, 243, 227);
+pla_gra.quadraticCurveTo(313, 320, 191, 154);
+
+
+pla_gra.fill()
+pla_gra.closePath();
+
+
+pla_gra.beginPath();
+pla_gra.moveTo(87,96);
+pla_gra.quadraticCurveTo(117, 98, 141, 92);
+pla_gra.quadraticCurveTo(153, 98, 175, 132);
+pla_gra.quadraticCurveTo(153, 118, 99, 153);
+pla_gra.quadraticCurveTo(90, 118, 99, 121);
+pla_gra.lineTo(70, 118);
+pla_gra.lineTo(92, 107);
+
+
+pla_gra.fill()
+pla_gra.closePath();
+
+
+
+pla_gra.fillStyle = "rgb(0, 255, 51)"
+pla_gra.strokeStyle = "rgb(166, 166, 166)"
+
+pla_gra.lineWidth = "6"
+
+ELLipse(201, 193, 15, 15);
+ELLipse(239, 271, 20, 20);
+ELLipse(280, 304, 25, 25);
+ELLipse(217, 317, 30, 30);
+ELLipse(170, 320, 18, 18);
+ellipse(170, 320, 15, 15);
+ellipse(280, 304, 20, 20);
+ellipse(239, 271, 17, 17);
+ellipse(201, 193, 15, 15);
+pla_gra.fillStyle = "rgb(255, 8, 33)"
+pla_gra.lineWidth = "3"
+
+ELLipse(119, 115, 30, 30);
+pla_gra.lineWidth = "6"
+
+
+pla_gra.strokeStyle = "rgb(0, 255, 51)"
+
+arc(121,168,200,226, 0.40, 1.59);
+arc(129,178,200,226, 0.40, 1.59);
+arc(137,188,200,226, 0.40, 1.59);
+
+
+arc(242,280,313,226, 1.00, 1.98);
+arc(236,268,313,226, 1.00, 1.98);
+arc(228,256,313,226, 1.00, 1.98);
+arc(227,244,313,226, 1.24, 1.98);
+
+
+arc(155,112,13,26, 0.20, 1.98);
+                
+
+            //}
+
+          
+          pla_gra.restore();
+          //}
+          
+          
+          
+    function line(x1, y1, x2, y2) {
+        pla_gra.beginPath();
+        pla_gra.moveTo(x1, y1);
+        pla_gra.lineTo(x2, y2);
+        pla_gra.stroke();
+        pla_gra.closePath();
+    };
+                
+                
+                pla_gra.save();
+
+
+pla_gra.translate(0, 2100);
+
+pla_gra.fillStyle = "rgba(200, 152, 78)"
+ellipse(50,50, 100, 100);
+
+
+let COIN = pla_gra.createLinearGradient(0, 0, 100, 100);
+COIN.addColorStop(1, "rgba(200, 152, 78)");
+COIN.addColorStop(0.8, "rgba(200, 152, 78)");
+COIN.addColorStop(0.2, "rgba(200, 152, 78)");
+COIN.addColorStop(0.4, "rgba(250, 214, 126, 1)");
+COIN.addColorStop(0.5, "rgba(250, 214, 126, 1)");
+COIN.addColorStop(0, "rgba(200, 152, 78)");
+                pla_gra.fillStyle = COIN
+
+ellipse(50,50, 95, 95);
+
+
+
+
+
+
+pla_gra.save()
+
+pla_gra.translate(3, 12);
+pla_gra.scale(0.9, 0.9);
+pla_gra.strokeStyle = "rgba(179, 127, 50)"
+pla_gra.fillStyle = "rgba(179, 127, 50)"
+pla_gra.lineWidth = "3"
+
+            pla_gra.beginPath();
+            pla_gra.moveTo(40.7, 44.9);
+
+            pla_gra.quadraticCurveTo(36.7, 16.6, 14.2, 30.5);
+            pla_gra.quadraticCurveTo(-4.0, 50.7, 17.3, 66.1);
+            pla_gra.quadraticCurveTo(14.8, 50.7, 24.2, 49.8);
+            pla_gra.quadraticCurveTo(18.3, 50.7, 26.7, 63.2);
+            pla_gra.quadraticCurveTo(28.1, 50.7, 33.3, 52.0);
+            pla_gra.quadraticCurveTo(30.1, 58.0, 35.4, 64.5);
+            pla_gra.quadraticCurveTo(34.9, 58.0, 41.6, 53.3);
+            pla_gra.quadraticCurveTo(36.3, 71.3, 41.6, 73.7);
+            pla_gra.quadraticCurveTo(46.6, 77.3, 54.1, 76.6);
+            pla_gra.quadraticCurveTo(59.9, 84.6, 65.1, 76.6);
+            pla_gra.quadraticCurveTo(67.2, 70.3, 66.7, 70.3);
+            pla_gra.quadraticCurveTo(80.4, 63.0, 83.8, 48.5);
+            pla_gra.quadraticCurveTo(83.5, 42.5, 79.3, 34.1);
+            pla_gra.quadraticCurveTo(76.3, 33.6, 76.9, 26.3);
+            pla_gra.quadraticCurveTo(76.3, 33.6, 80.1, 34.7);
+            pla_gra.quadraticCurveTo(85.6, 33.6, 79.4, 24.6);
+            pla_gra.quadraticCurveTo(85.6, 23.9, 87.6, 20.7);
+            pla_gra.quadraticCurveTo(85.6, 18.2, 78.9, 18.0);
+            pla_gra.quadraticCurveTo(82.4, 21.0, 79.2, 23.5);
+            pla_gra.quadraticCurveTo(82.4, 21.0, 79.2, 17.1);
+            pla_gra.quadraticCurveTo(80.4, 8.3, 84.4, 10.1);
+            pla_gra.quadraticCurveTo(87.2, 8.3, 84.4, 5.2);
+            pla_gra.quadraticCurveTo(78.5, 8.3, 75.9, 5.2);
+            pla_gra.quadraticCurveTo(75.0, 1.4, 72.4, 7.1);
+            pla_gra.quadraticCurveTo(71.6, 12.1, 64.7, 7.1);
+            pla_gra.quadraticCurveTo(60.4, 12.1, 65.0, 13.4);
+            pla_gra.quadraticCurveTo(68.2, 14.6, 69.5, 20.4);
+            pla_gra.quadraticCurveTo(69.0, 16.3, 78.8, 16.9);
+            pla_gra.quadraticCurveTo(69.0, 16.3, 78.8, 16.9);
+            pla_gra.quadraticCurveTo(69.0, 16.3, 64.1, 26.5);
+            pla_gra.quadraticCurveTo(56.8, 52.1, 40.4, 43.4);
+                
+
+              
+            pla_gra.stroke()
+            pla_gra.closePath();
+            
+            
+            pla_gra.beginPath();
+            pla_gra.moveTo(31.2, 36.6);
+
+            pla_gra.quadraticCurveTo(19.7, 30.0, 14.2, 47.3);
+
+            pla_gra.stroke()
+            pla_gra.closePath();
+            
+            pla_gra.beginPath();
+            pla_gra.moveTo(34.8, 42.9);
+
+            pla_gra.quadraticCurveTo(25.4, 42.0, 27.8, 47.3);
+
+            pla_gra.stroke()
+            pla_gra.closePath();
+            
+            
+            pla_gra.beginPath();
+            pla_gra.moveTo(53.0, 52.1);
+            pla_gra.quadraticCurveTo(56.3, 58.5, 65.0, 42.9);
+            pla_gra.stroke()
+            pla_gra.closePath();
+            
+            pla_gra.beginPath();
+            pla_gra.moveTo(48.8, 54.1);
+            pla_gra.quadraticCurveTo(46.5, 66.4, 57.0, 64.1);
+            pla_gra.quadraticCurveTo(65.8, 63.4, 67.1, 55.0);
+            pla_gra.quadraticCurveTo(65.8, 46.9, 74.0, 37.6);
+            pla_gra.stroke()
+            pla_gra.closePath();
+            
+            line(60.4, 79.2, 60.4, 90.1);
+            line(57.6, 89.2, 65.7, 89.2);
+            
+            ellipse(73.4, 23.3, 2.8, 3.2);
+            
+            pla_gra.restore();
+            
+            
+            
+            pla_gra.restore();
+
+            //}
+
+          
+          pla_gra.restore();
+          
+          
+          
+          pla_gra.save()
+
+pla_gra.translate(100, 2100)
+
+pla_gra.lineWidth = "15"
+
+pla_gra.strokeStyle = "rgb(147, 76, 74)"
+
+pla_gra.fillStyle = "rgb(249, 91, 82)"
+
+pla_gra.save();
+
+pla_gra.translate(5, 5);
+
+pla_gra.scale(0.9, 0.9);
+
+            pla_gra.beginPath();
+            pla_gra.moveTo(50.2, 21.4);
+
+            pla_gra.quadraticCurveTo(42.0, 5.8, 23.3, 8.1);
+            pla_gra.quadraticCurveTo(-1.0, 15.3, 3.3, 42.4);
+            pla_gra.quadraticCurveTo(14.8, 76.5, 50.1, 92.0);
+            pla_gra.quadraticCurveTo(86.2, 75.1, 96.0, 42.2);
+            pla_gra.quadraticCurveTo(100.5, 24.2, 87.1, 12.7);
+            pla_gra.quadraticCurveTo(72.9, 3.4, 56.8, 12.7);
+            pla_gra.quadraticCurveTo(53.2, 14.8, 50.2, 21.4);
+
+ 
+
+              
+            pla_gra.stroke()
+            pla_gra.fill()
+            pla_gra.closePath();
+            
+
+pla_gra.fillStyle = "rgb(229, 84, 81)"
+
+            pla_gra.beginPath();
+            pla_gra.moveTo(31.5, 81.4);
+            pla_gra.quadraticCurveTo(47.5, 92.0, 50.1, 92.0);
+            pla_gra.quadraticCurveTo(86.2, 75.1, 96.0, 42.2);
+            pla_gra.quadraticCurveTo(100.5, 24.2, 87.1, 12.7);
+            pla_gra.quadraticCurveTo(72.9, 3.4, 56.8, 12.7);
+            pla_gra.quadraticCurveTo(72.9, 12.0, 77.7, 30.5);
+            pla_gra.quadraticCurveTo(77.7, 53.4, 65.1, 67.6);
+            pla_gra.quadraticCurveTo(56.3, 77.1, 49.4, 80.9);
+            pla_gra.quadraticCurveTo(47.8, 81.5, 31.4, 82.5);
+
+ 
+
+            pla_gra.fill()
+            pla_gra.closePath();
+
+
+pla_gra.fillStyle = "white"
+
+            pla_gra.beginPath();
+            pla_gra.moveTo(23.0, 15.2);
+
+            pla_gra.quadraticCurveTo(34.5, 12.7, 31.0, 23.0);
+            pla_gra.quadraticCurveTo(16.8, 27.4, 17.5, 40.4);
+            pla_gra.quadraticCurveTo(13.7, 44.9, 10.1, 40.4);
+            pla_gra.quadraticCurveTo(9.3, 20.2, 23.0, 15.2);
+ 
+
+              
+            pla_gra.fill()
+            pla_gra.closePath();
+            
+            
+            ellipse(16.8, 50.5, 8.2, 8.2);
+pla_gra.restore();
+
+pla_gra.restore();
+
+          
+          
+          function cpxa(x,y,s,art,colors){
+    for(var i = 0; i < art.length; i++) {
+        for(var j = 0; j < art[i].length; j++) {
+            var c = art[i][j];
+            pla_gra.fillStyle = colors[c];
+            pla_gra.fillRect(x + (j * s/art[i].length),y +( i * s/art[i].length), s/art[i].length+1, s/art[i].length+1);
+    }
+}}
+
+
+
+    cpxa(200, 2100, 100,[
+    "    cc                       ",
+    "  aaaa                       ",
+    " aaaaa                       ",
+    " aakaa                       ",
+    "bccaaa                       ",
+    "  caaaa            lllll     ",
+    "  aaaaa           llmmmmmm   ",
+    "  aaaaaa         lmllllmmkk  ",
+    "  aaaaaaa        lmllmmmkkk  ",
+    "  aaaaaaa        lmllmmmkkkk ",
+    "  caaaaaad      lmmlmmmmkkkkk",
+    "  ccaaaaaad    mmllllmmk kkkk",
+    "  ccaaaaaaeeee mmlllllmm  kkk",
+    "   ccaaaacceeeemmmmmmmlm  kkk",
+    "   fcccccccceeeemmmkkkk   kkk",
+    "   fffcccccccceemkkkkk     kk",
+    "   fffcccccccgeemkkkkk     kk",
+    "    fffcccccgggeekkkkk     kk",
+    "    fffcccgggggeekkkkk     kk",
+    "    ffffcfgghhhhekk kk    k k",
+    "     ffffffffhhhek   k    k k",
+    "      ffffffffffek       k  k",
+    "       fffffffffe           k",
+    "        ffffffff             ",
+    "        fffff                ",
+    "         ff                  ",
+    "         ij                  ",
+    "         ij                  ",
+    "         ij                  ",
+
+
+],{
+    "a": "rgb(247, 58, 37)",
+    "b": "rgb(212, 174, 121)",
+    "c": "rgb(186, 9, 42)",
+    "d": "rgb(255, 242, 0)",
+    "e": "rgb(252, 88, 18)",
+    "f": "rgb(29, 6, 99)",
+    "g": "rgb(31, 5, 230)",
+    "h": "rgb(87, 3, 35)",
+    "i": "rgb(194, 194, 194)",
+    "j": "rgb(163, 163, 163)",
+    "k": "rgb(0, 0, 0)",
+    "l": "rgb(8, 148, 136)",
+    "m": "rgb(4, 82, 81)",
+    " ": "rgba(0, 0, 0, 0)"
+})
+
+
+    
+    pla_gra.save();
+    
+    pla_gra.translate(400, 2100);
+    pla_gra.scale(-0.1666666,0.1666666);
+    
+            pla_gra.lineWidth = "12"
+
+pla_gra.fillStyle = "rgb(224, 150, 11)"
+pla_gra.strokeStyle = "black"
+
+            line(269, 520, 293, 586)
+            line(334, 520, 358, 586)
+            line(233, 586, 398, 586)
+            
+            line(398, 258, 413, 235)
+            line(449, 273, 458, 252)
+            line(499, 283, 498, 258)
+            
+            pla_gra.beginPath();
+            pla_gra.moveTo(523, 106);
+            pla_gra.quadraticCurveTo(561, 117, 580, 159);
+            pla_gra.quadraticCurveTo(561, 155, 518, 165);
+
+
+            pla_gra.fill()
+            pla_gra.stroke()
+            pla_gra.closePath();
+            
+            
+pla_gra.fillStyle = "rgb(12, 158, 124)"
+
+
+            pla_gra.beginPath();
+            pla_gra.moveTo(244, 239);
+            pla_gra.quadraticCurveTo(153, 30, 17, 193);
+            pla_gra.quadraticCurveTo(153, 132, 193, 252);
+            pla_gra.quadraticCurveTo(111, 101, 10, 267);
+            pla_gra.quadraticCurveTo(111, 190, 166, 267);
+            pla_gra.quadraticCurveTo(66, 216, 35, 293);
+            pla_gra.quadraticCurveTo(29, 310, 35, 354);
+            pla_gra.quadraticCurveTo(66, 267, 144, 297);
+            pla_gra.quadraticCurveTo(66, 267, 67, 365);
+            pla_gra.quadraticCurveTo(86, 331, 136, 330);
+
+            pla_gra.fill()
+            pla_gra.stroke()
+            pla_gra.closePath();
+            
+            
+pla_gra.fillStyle = "rgb(230, 5, 8)"
+
+            
+            pla_gra.beginPath();
+            pla_gra.moveTo(523, 106);
+            pla_gra.quadraticCurveTo(561, 56, 513, 29);
+            pla_gra.quadraticCurveTo(494, 56, 496, 42);
+            pla_gra.quadraticCurveTo(479, 0, 420, 6);
+            pla_gra.quadraticCurveTo(430, 23, 430, 36);
+            pla_gra.quadraticCurveTo(430, 31, 381, 25);
+            pla_gra.quadraticCurveTo(383, 31, 385, 58);
+            pla_gra.quadraticCurveTo(353, 50, 351, 58);
+            pla_gra.quadraticCurveTo(353, 102, 400, 114);
+
+            pla_gra.fill()
+            pla_gra.stroke();
+            pla_gra.closePath();
+
+
+
+pla_gra.fillStyle = "rgb(255, 255, 255)"
+
+            pla_gra.beginPath();
+            pla_gra.moveTo(314, 489);
+            pla_gra.lineTo(314, 524);
+            pla_gra.lineTo(359, 524);
+            pla_gra.quadraticCurveTo(376, 492, 409, 468);
+            pla_gra.lineTo(314, 424);
+            pla_gra.fill()
+            pla_gra.stroke();
+            pla_gra.closePath();
+
+            pla_gra.beginPath();
+            pla_gra.moveTo(314, 489);
+            pla_gra.lineTo(314, 524);
+            pla_gra.lineTo(359, 524);
+            pla_gra.quadraticCurveTo(376, 492, 409, 468);
+            pla_gra.lineTo(314, 424);
+            pla_gra.fill()
+            pla_gra.closePath();
+            
+
+            pla_gra.beginPath();
+            pla_gra.moveTo(454, 84);
+
+            pla_gra.quadraticCurveTo(376, 104, 373, 191);
+            pla_gra.quadraticCurveTo(355, 263, 244, 247);
+            pla_gra.quadraticCurveTo(151, 225, 131, 342);
+            pla_gra.quadraticCurveTo(125, 448, 246, 492);
+            pla_gra.lineTo(242, 530);
+            pla_gra.lineTo(298, 526);
+            pla_gra.quadraticCurveTo(313, 479, 364, 468);
+            pla_gra.quadraticCurveTo(498, 468, 540, 351);
+            pla_gra.quadraticCurveTo(554, 300, 524, 235);
+            pla_gra.quadraticCurveTo(554, 200, 517, 167);
+            pla_gra.quadraticCurveTo(544, 84, 454, 84);
+
+          
+            pla_gra.fill()
+            pla_gra.stroke();
+            pla_gra.closePath();
+
+
+            pla_gra.beginPath();
+            pla_gra.moveTo(314, 299);
+            pla_gra.quadraticCurveTo(261, 336, 200, 311);
+            pla_gra.quadraticCurveTo(261, 420, 328, 405);
+            pla_gra.quadraticCurveTo(404, 408, 438, 303);
+            pla_gra.fill()
+            pla_gra.stroke();
+            pla_gra.closePath();
+            
+            pla_gra.fillStyle = "red"
+            
+            ellipse(497,203, 70, 70)
+            ellipse(486,140, 75, 75)
+            
+            arc(497,203, 70, 70, 0.2, 4.0)
+            
+            pla_gra.fillStyle = "white"
+
+
+            
+
+            pla_gra.beginPath();
+            pla_gra.moveTo(454, 84);
+
+            pla_gra.quadraticCurveTo(376, 104, 373, 191);
+            pla_gra.quadraticCurveTo(355, 263, 244, 247);
+            pla_gra.quadraticCurveTo(151, 225, 131, 342);
+            pla_gra.quadraticCurveTo(125, 448, 246, 492);
+            pla_gra.lineTo(242, 530);
+            pla_gra.lineTo(298, 526);
+            pla_gra.quadraticCurveTo(313, 479, 364, 468);
+            pla_gra.quadraticCurveTo(498, 468, 540, 351);
+            pla_gra.quadraticCurveTo(554, 300, 524, 235);
+            pla_gra.quadraticCurveTo(554, 200, 517, 167);
+            pla_gra.quadraticCurveTo(544, 84, 454, 84);
+
+            pla_gra.stroke();
+            pla_gra.closePath();
+            
+            pla_gra.fillStyle = "black"
+            ellipse(488,140, 25, 25)
+            
+            pla_gra.beginPath();
+            pla_gra.moveTo(312, 351);
+            pla_gra.quadraticCurveTo(261, 370, 225, 358);
+
+            pla_gra.stroke()
+            pla_gra.closePath();
+
+
+            pla_gra.beginPath();
+            pla_gra.moveTo(331, 379);
+            pla_gra.quadraticCurveTo(281, 407, 282, 396);
+
+            pla_gra.stroke()
+            pla_gra.closePath();
+            
+            pla_gra.restore();
+        }
+
+
+        //display
+        gra();
