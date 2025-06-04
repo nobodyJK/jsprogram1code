@@ -1,4 +1,4 @@
-        function gra () {
+
             //get the graphic canvas and context
             let g_canvas = document.getElementById('g-canvas')
             let pla_gra = g_canvas.getContext('2d')
@@ -1265,8 +1265,4 @@ pla_gra.fillStyle = "rgb(255, 255, 255)"
             pla_gra.closePath();
             
             pla_gra.restore();
-        }
 
-
-        //display
-        gra();
